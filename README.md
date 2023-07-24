@@ -9,7 +9,7 @@
     -   Making network calls to get relevant date
     -   Error handling network calls 
 ### Steps i took:-
-                - Installed Postman for testing API call
+    -   Installed Postman for testing API call
 
 ### Basic steps:-
     1. Setting up Index.html and commit
@@ -20,11 +20,11 @@
 
 
 
-
-
-
 ### Sidenotes:-
     - since the javascript get interpreted and compiled top to bottom, we should put script file just before ending the body tag.
     - after `33.30` he explains how to get reference for btn-translate in JS file.
         - here querySelector is used and assigned to a variable
-        
+        - next is to listen to an event, for interaction btwn users and application. ways of interaction are scroll, click ,touch etc.
+            - `addEventListener("user_action, function)`
+            - `document` is an api!?! research on this
+            - 
