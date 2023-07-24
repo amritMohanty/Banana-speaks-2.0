@@ -1,0 +1,27 @@
+a{
+    background-color: rgb(104, 170, 255); border-radius: 0.3rem; color:antiquewhite; padding: 0.1rem 0.3rem
+}
+
+nav #nav-container{
+    padding: 1rem 3rem;
+    background-color: green;
+    color: aliceblue;
+    display: block;
+}
+
+.text--area{
+    display: block;
+    padding: 2rem 2rem;
+}
+
+textarea{
+    font-family: sans-serif;
+    height: 10rem;
+    width: 30rem;
+    
+}
+
+#btn--div{
+    padding: 0.5rem 2rem;
+    display: block;
+}

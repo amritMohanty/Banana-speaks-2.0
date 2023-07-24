@@ -3,8 +3,13 @@
 // var input = prompt("provide input")
 
 // alert("input = "+ input)
-var abcd = document.querySelector("btn-Translate")
+var btnTranslate = document.querySelector("#btn-Translate")
+var inputText = document.querySelector("#input--div")
+function eventHandler() {
+    console.log(inputText.value)
+}
 
-abcd.addEventListener("click",() => {
-    console.log("click detected on console")
-})
+btnTranslate.addEventListener("click",eventHandler());
+
+// the input text is to be assigned to a variable
+// initiate a var whose text is shown in the output area
