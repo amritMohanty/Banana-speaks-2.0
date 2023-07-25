@@ -8,10 +8,10 @@
     -   showing output in the browser
     -   Making network calls to get relevant date
     -   Error handling network calls 
-### Steps i took:-
+### Steps i took
     -   Installed Postman for testing API call
 
-### Basic steps:-
+### Basic steps
     1. Setting up Index.html and commit
     2. Two ways of putting in script tag
     3. Alert(out) and Prompt(inp) for inp/out
@@ -20,7 +20,7 @@
 
 
 
-### Sidenotes:-
+### Sidenotes
     - since the javascript get interpreted and compiled top to bottom, we should put script file just before ending the body tag.
     - after `33.30` he explains how to get reference for btn-translate in JS file.
         - here querySelector is used and assigned to a variable

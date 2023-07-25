@@ -1,4 +1,4 @@
-a{
+button{
     background-color: rgb(104, 170, 255); border-radius: 0.3rem; color:antiquewhite; padding: 0.1rem 0.3rem
 }
 
@@ -9,6 +9,11 @@ nav #nav-container{
     display: block;
 }
 
+span{
+    padding: 20% 20%;
+
+}
+
 .text--area{
     display: block;
     padding: 2rem 2rem;
@@ -17,7 +22,7 @@ nav #nav-container{
 
 #text--input{
     padding: 2rem 2rem;
-    
+
 }
 
 textarea{
