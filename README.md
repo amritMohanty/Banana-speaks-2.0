@@ -26,7 +26,7 @@
         - here querySelector is used and assigned to a variable
         - next is to listen to an event, for interaction btwn users and application. ways of interaction are scroll, click ,touch etc.
             - `addEventListener("user_action, callback function)`
-                - **callback function is essentially the consequence of the given browser event such as click or touch.**
+                - ** callback function is essentially the consequence of the given browser event such as click or touch. **
             - `document` is an api!?! research on this
             -  add a text area and add padding, make the displayh into a block
             -  **.value works for forms and input based elements and query selectors work on the css selectors(for first argument)**, next follow live exercise
@@ -35,3 +35,4 @@
                 - .btn
                 - input[name='translator']
 
+1:26 timestamp

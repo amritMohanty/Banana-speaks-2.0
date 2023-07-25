@@ -12,6 +12,12 @@ nav #nav-container{
 .text--area{
     display: block;
     padding: 2rem 2rem;
+    margin: 2px 2px;
+}
+
+#text--input{
+    padding: 2rem 2rem;
+    
 }
 
 textarea{

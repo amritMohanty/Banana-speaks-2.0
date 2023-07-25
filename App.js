@@ -1,12 +1,12 @@
-// console.log("script testing....")
 
-// var input = prompt("provide input")
-
-// alert("input = "+ input)
 var btnTranslate = document.querySelector("#btn-Translate")
-var inputText = document.querySelector("#input--div")
+
+var inputText = document.querySelector("#text--input").innerText
+
 function eventHandler() {
-    console.log(inputText.value)
+
+    console.log("CLICKED")
+    console.log("input: ",inputText)
 }
 
 btnTranslate.addEventListener("click",eventHandler());
