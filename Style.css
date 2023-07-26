@@ -1,38 +1,68 @@
 button{
-    background-color: rgb(104, 170, 255); border-radius: 0.3rem; color:antiquewhite; padding: 0.1rem 0.3rem
+    color: #fbbf24(104, 170, 255); 
+    border-radius: 0.3rem;
+    height: 50px;
+    width: 150px;
+    box-shadow: 2px;
+
+    /* padding: 0.1rem 0.3rem */
+}
+#btn-Translate{
+    background-color: #fbbf24;
+    color: black;
+    font-family: sans-serif;
+    font-size: medium;
 }
 
 nav #nav-container{
     padding: 1rem 3rem;
-    background-color: green;
-    color: aliceblue;
+    background-color: #fbbf24;
+    color: black;
     display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container--div{
+    background-color: #475569;
+    margin: 10px 0px;
+    /* padding: 40px 0 0 60px; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item{
+    padding: 40px 40px;
 }
 
 span{
     padding: 20% 20%;
-
 }
 
-.text--area{
-    display: block;
-    padding: 2rem 2rem;
-    margin: 2px 2px;
-}
-
-#text--input{
-    padding: 2rem 2rem;
-
-}
-
-textarea{
+textarea {
     font-family: sans-serif;
     height: 10rem;
     width: 30rem;
+    font-family:sans-serif;
     
 }
 
+
+
 #btn--div{
-    padding: 0.5rem 2rem;
+    /* padding: 0.5rem 2rem; */
     display: block;
+}
+
+#footer--section{
+
+    display: block;
+    background-color: #fbbf24;
+    width:auto;
+    height: 120px;
+
+
 }

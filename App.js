@@ -6,7 +6,7 @@ var outputText = document.querySelector("#text--output")
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 var temp = ""
-
+ 
 function getURL(text){
     return serverURL+"?text="+text
 }
