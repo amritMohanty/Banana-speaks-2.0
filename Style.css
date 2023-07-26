@@ -15,8 +15,9 @@ button{
     background-color: var(--primary);
     font-family: var(--kalam) ; 
     /* border-radius: 0.3rem; */
-    height: 50px;
-    width: 150px;
+    font-size: large;
+    height: 90px;
+    width: 190px;
     border: 0px solid var(--primary);
     /* box-shadow: 2px; */
     /* padding: 0.1rem 0.3rem */
