@@ -1,22 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break:600px;
+    --kalam: 'kalam', cursive;
+}
+
 button{
-    color: #fbbf24(104, 170, 255); 
-    border-radius: 0.3rem;
+    background-color: var(--primary);
+    font-family: var(--kalam) ; 
+    /* border-radius: 0.3rem; */
     height: 50px;
     width: 150px;
-    box-shadow: 2px;
-
+    border: 0px solid var(--primary);
+    /* box-shadow: 2px; */
     /* padding: 0.1rem 0.3rem */
 }
-#btn-Translate{
+
+body{
+    margin: 0;
+    font-family: 'kalam', cursive;
+}
+
+/* #btn-Translate{
     background-color: #fbbf24;
     color: black;
     font-family: sans-serif;
     font-size: medium;
-}
+} */
 
-nav #nav-container{
+nav {
     padding: 1rem 3rem;
-    background-color: #fbbf24;
+    background-color: var(--primary);
     color: black;
     display: block;
     text-align: center;
@@ -24,7 +44,7 @@ nav #nav-container{
 }
 
 #container--div{
-    background-color: #475569;
+    /* background-color: #475569; */
     margin: 10px 0px;
     /* padding: 40px 0 0 60px; */
     display: flex;
@@ -57,12 +77,10 @@ textarea {
     display: block;
 }
 
-#footer--section{
-
-    display: block;
-    background-color: #fbbf24;
+footer{
+    position: fixed;
+    text-align: center;
+    background-color:var(--primary);
     width:auto;
-    height: 120px;
-
-
+    bottom: 0;
 }
